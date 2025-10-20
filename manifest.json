@@ -1,0 +1,22 @@
+﻿{
+  "manifest_version": "1",
+  "name": "mcp-lei",
+  "display_name": "Buscador de CitaÃ§Ãµes de Lei (MCP)",
+  "version": "1.0.4",
+  "description": "Servidor MCP para localizar e normalizar citaÃ§Ãµes legais em arquivos TXT locais.",
+  "author": { "name": "Pedro Giudice Rodrigues" },
+  "license": "MIT",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/server/index.js"]
+    }
+  },
+  "tools": [
+    { "name": "listar_arquivos_lei", "description": "Lista os .txt disponÃ­veis no diretÃ³rio configurado" },
+    { "name": "search_citacao_lei",  "description": "Busca citaÃ§Ãµes por padrÃ£o/estrutura em todos os arquivos" },
+    { "name": "extrair_citacoes",    "description": "Busca citaÃ§Ãµes em um arquivo especÃ­fico" }
+  ]
+}

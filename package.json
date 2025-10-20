@@ -1,0 +1,12 @@
+﻿{
+  "name": "mcp-lei",
+  "version": "1.0.4",
+  "description": "Servidor MCP para busca de citacoes de lei",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "zod": "^3.23.8"
+  }
+}
