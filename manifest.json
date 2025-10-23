@@ -8,10 +8,10 @@
   "license": "MIT",
   "server": {
     "type": "node",
-    "entry_point": "server/index.js",
+    "entry_point": "index.js",
     "mcp_config": {
       "command": "node",
-      "args": ["${__dirname}/server/index.js"]
+      "args": ["${__dirname}/index.js"]
     }
   },
   "tools": [
