@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "mcp-lei": {
+      "command": "node",
+      "args": ["C:\\Users\\pedro\\mcp-lei\\index.js"]
+    }
+  }
+}

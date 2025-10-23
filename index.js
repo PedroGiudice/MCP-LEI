@@ -10,7 +10,7 @@ const __filename = url.fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Caminho fixo para os .txt (definido no build)
-const LEIS_DIR = "D:\\\\DIRETORIO - CLAUDE MCP\\\\CODIGOS";
+const LEIS_DIR = "C:\\Users\\pedro\\CÓDIGOS";
 const SUPORTADAS = [".txt"];
 
 async function listarArquivosLeis() {
