@@ -30,7 +30,7 @@ Este servidor MCP permite que o Claude Desktop acesse e busque citações de lei
 
 - **Node.js** (versão 14 ou superior) - [Download](https://nodejs.org/)
 - **Claude Desktop** instalado
-- Arquivos .txt de leis no diretório `C:\Users\pedro\CÓDIGOS`
+- Arquivos .txt de leis no diretório `C:\Users\pedro\CODIGOS`
 
 ### Instalação Automática (Recomendado)
 
@@ -49,7 +49,7 @@ Este servidor MCP permite que o Claude Desktop acesse e busque citações de lei
 O script irá:
 - Verificar se o Node.js está instalado
 - Criar o diretório de instalação em `C:\Users\pedro\mcp-lei`
-- Verificar/criar o diretório de leis em `C:\Users\pedro\CÓDIGOS`
+- Verificar/criar o diretório de leis em `C:\Users\pedro\CODIGOS`
 - Copiar os arquivos necessários
 - Instalar as dependências do Node.js
 
@@ -71,7 +71,7 @@ Se preferir instalar manualmente:
 
 3. Verifique se o diretório de leis existe:
    ```powershell
-   New-Item -ItemType Directory -Path "C:\Users\pedro\CÓDIGOS" -Force
+   New-Item -ItemType Directory -Path "C:\Users\pedro\CODIGOS" -Force
    ```
 
 ## ⚙️ Configuração do Claude Desktop
@@ -102,7 +102,7 @@ Após a instalação, configure o servidor no Claude Desktop:
 Certifique-se de que seus arquivos de leis estão organizados assim:
 
 ```
-C:\Users\pedro\CÓDIGOS\
+C:\Users\pedro\CODIGOS\
 ├── CF-88.txt
 ├── CPC.txt
 ├── CC.txt
@@ -162,7 +162,7 @@ O servidor deve iniciar sem erros. Pressione `Ctrl+C` para parar.
 - Reinicie o PowerShell após a instalação
 
 ### Erro: "Diretório de leis não encontrado"
-- Verifique se o diretório `C:\Users\pedro\CÓDIGOS` existe
+- Verifique se o diretório `C:\Users\pedro\CODIGOS` existe
 - Coloque seus arquivos .txt neste diretório
 
 ### Servidor não aparece no Claude Desktop
